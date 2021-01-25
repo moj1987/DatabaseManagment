@@ -1,0 +1,151 @@
+***Question 1 ***
+ 
+code explanation               frenchExplanation
+---- ------------------------- -------------------------
+D    Discontinued              Abandonnées
+N    Normal                    À temps plein, actif
+S    Suspended                 Suspendue
+
+(3 rows affected)
+
+***Question 2 ***
+ 
+number  AcademicStatusCode
+------- ------------------
+7826662 D
+5613716 D
+5582770 D
+5123120 D
+3223278 D
+2238665 D
+1335314 D
+
+(7 rows affected)
+
+***Question 3 ***
+ 
+number  AcademicStatusCode
+------- ------------------
+1335314 D
+2238665 D
+3223278 D
+5123120 D
+5166111 S
+5473160 S
+5582770 D
+5613716 D
+5832548 S
+6484885 S
+7826662 D
+8412280 S
+8588766 S
+
+(13 rows affected)
+
+***Question 4 ***
+ 
+number  AcademicStatusCode
+------- ------------------
+1335314 D
+2238665 D
+3223278 D
+5123120 D
+5166111 S
+5473160 S
+5582770 D
+5613716 D
+5832548 S
+6484885 S
+7826662 D
+8412280 S
+8588766 S
+
+(13 rows affected)
+
+***Question 5 ***
+ 
+number  AcademicStatusCode
+------- ------------------
+1335314 D
+2238665 D
+3223278 D
+5123120 D
+5166111 S
+5473160 S
+5582770 D
+5613716 D
+5832548 S
+6484885 S
+7826662 D
+8412280 S
+8588766 S
+
+(13 rows affected)
+
+***Question 6 ***
+ 
+countryCode
+-----------
+CAN
+CHN
+IND
+NGA
+POL
+USA
+
+(6 rows affected)
+
+***Question 7 ***
+ 
+Incidental Fee Item                                          Current fee           Increased Fee
+------------------------------------------------------------ --------------------- ---------------------------------------
+Administration Fee                                           20.60                 22.66000
+Graduation/Alumni Services Fee                               18.56                 20.41600
+Recreation/Athletics Fee                                     63.17                 69.48700
+Student Priority Fee                                         45.46                 50.00600
+Technology Enhancement Fee                                   117.05                128.75500
+CSI Association Fee - Doon Campus                            77.50                 85.25000
+CSI Capital Development Fee - Doon Campus                    52.77                 58.04700
+CSA Fee                                                      4.50                  4.95000
+CSI Health Plan                                              185.68                204.24800
+
+(9 rows affected)
+
+***Question 8 ***
+ 
+CourseOfferingId studentNumber finalMark
+---------------- ------------- ----------------------
+9                3526415       53
+9                5767777       54
+9                5785845       50
+9                8653370       51
+19               1114453       52
+19               6471585       51
+19               8317323       54
+29               2866564       52
+29               3117777       53
+29               5727664       53
+29               8414815       53
+
+(11 rows affected)
+
+***Question 9 ***
+ 
+number
+------
+2A220 
+
+(1 row affected)
+
+***Question 10 ***
+ 
+number  reportsTo campusCode schoolCode location                       businessPhone                  extension fax            encryptedSin
+------- --------- ---------- ---------- ------------------------------ ------------------------------ --------- -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6860242 NULL      D          TAP        3B21                           (519) 748-5220                 1795      (519) 189-3239 0x00DC0449D2B13946997B9315785EF27502000000A23C63C359779EFF12ED41BA1FD959F8D9D721A0BE422DDF7B0E72F9BA9FA99A8A43AEA0CBEF5F140C06283F04C5907F
+6886352 8436780   G          TAP        23                             (519) 748-5220                 6742      NULL           0x00DC0449D2B13946997B9315785EF27502000000E3B4A7BC1ACD825BAD6A7D02CAB35887D79BEC0886DBB5DD9544D93525900B35BD8F0EBC8F0F063EA1B5564AC1844FB2
+8436780 NULL      D          TAP        4B179                          (519) 748-5220                 7361      (519) 189-3239 0x00DC0449D2B13946997B9315785EF275020000000CC98BBAA7F71E1C79E24E87AF1EC58B2BC8E1637A53ECA625F393A05BC45EC68BDDA4AD9C1E713FAD9B30159F289DF4
+
+(3 rows affected)
+
+
+Completion time: 2021-01-20T18:46:02.3963974-05:00
