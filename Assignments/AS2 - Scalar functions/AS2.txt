@@ -1,0 +1,183 @@
+***Question 1 ***
+ 
+First Name Length
+-----------------
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+
+(13 rows affected)
+
+***Question 2 ***
+ 
+firstName                                          First Initial Lower First Initial
+-------------------------------------------------- ------------- -------------------
+BOB                                                B             b
+BRYAN                                              B             b
+CARLA L.                                           C             c
+CAROL                                              C             c
+CAROLINE                                           C             c
+CYNTHIA                                            C             c
+DANIEL                                             D             d
+DEVON                                              D             d
+DONALD C.                                          D             d
+DURIAL                                             D             d
+FRANK                                              F             f
+GERALDINE D.                                       G             g
+HAYLEY C                                           H             h
+HORTON                                             H             h
+JEROME                                             J             j
+JOSEPH                                             J             j
+LISA                                               L             l
+MARY JEAN                                          M             m
+MICHAEL                                            M             m
+MICHAEL                                            M             m
+RAMABAI                                            R             r
+ROBERTO                                            R             r
+SHAYNA                                             S             s
+TARA                                               T             t
+TERESA M                                           T             t
+TONY                                               T             t
+
+(26 rows affected)
+
+***Question 3 ***
+ 
+lastName                                           First Seven Lower First Seven
+-------------------------------------------------- ----------- -----------------
+PAYER                                              PAYER       payer
+PENTARIS                                           PENTARI     pentari
+PACKEBUSH                                          PACKEBU     packebu
+PHATDOUANG                                         PHATDOU     phatdou
+PORCARELLI                                         PORCARE     porcare
+PHILLIP-TROUGHT                                    PHILLIP     phillip
+PIECZYNSKI                                         PIECZYN     pieczyn
+PIPPERT                                            PIPPERT     pippert
+PAGLIO                                             PAGLIO      paglio
+PRIETO                                             PRIETO      prieto
+POTES                                              POTES       potes
+PILLAI                                             PILLAI      pillai
+PEYTON                                             PEYTON      peyton
+PANCHANA                                           PANCHAN     panchan
+PARMELEE                                           PARMELE     parmele
+PARKER                                             PARKER      parker
+PARTIDO                                            PARTIDO     partido
+PALAFOX                                            PALAFOX     palafox
+PANCHAL                                            PANCHAL     panchal
+PRICHARD                                           PRICHAR     prichar
+PANDITA                                            PANDITA     pandita
+PRYOR                                              PRYOR       pryor
+PARTIN                                             PARTIN      partin
+PRVITT                                             PRVITT      prvitt
+PERGOLA                                            PERGOLA     pergola
+PUOTINEN                                           PUOTINE     puotine
+
+(26 rows affected)
+
+***Question 4 ***
+ 
+User Id
+--------
+bpayer
+bpentari
+cpackebu
+cphatdou
+cphillip
+cporcare
+dpaglio
+dpieczyn
+dpippert
+dprieto
+fpotes
+gpillai
+hpanchan
+hpeyton
+jparker
+jparmele
+lpartido
+mpalafox
+mpanchal
+mprichar
+rpandita
+rpryor
+spartin
+tpergola
+tprvitt
+tpuotine
+
+(26 rows affected)
+
+***Question 5 ***
+ 
+Course Code Course Name
+----------- ----------------------------------------------------------------------
+COMP1230    Database Design and Integration
+PROG1790    Database: Fundamentals
+PROG2220    Database: SQL
+PROG3040    Database: Application Development
+PROG8080    Programming: Database Management
+
+(5 rows affected)
+
+***Question 6 ***
+ 
+Today      30 Days    60 Days    90 Days    120 Days
+---------- ---------- ---------- ---------- ----------
+2021.01.29 2021.02.28 2021.03.30 2021.04.29 2021.05.29
+
+(1 row affected)
+
+***Question 7 ***
+ 
+***7-a ***
+                                                                                                    
+------------------------ ------------------------------------ ------------------------------------- -----------------------------------
+Employee Number: 8135170 Year: 1952                           Month: 11                             Day: 12
+Employee Number: 6886352 Year: 1959                           Month: 2                              Day: 12
+Employee Number: 6434468 Year: 1960                           Month: 1                              Day: 11
+Employee Number: 3566163 Year: 1960                           Month: 7                              Day: 19
+Employee Number: 6860242 Year: 1961                           Month: 2                              Day: 28
+Employee Number: 3214350 Year: 1963                           Month: 1                              Day: 11
+Employee Number: 3455730 Year: 1963                           Month: 1                              Day: 11
+Employee Number: 8436780 Year: 1964                           Month: 3                              Day: 27
+Employee Number: 7572373 Year: 1967                           Month: 9                              Day: 12
+Employee Number: 5512736 Year: 1972                           Month: 1                              Day: 15
+Employee Number: 3514239 Year: 1972                           Month: 7                              Day: 19
+Employee Number: 8383259 Year: 1977                           Month: 5                              Day: 12
+Employee Number: 4427732 Year: 1979                           Month: 8                              Day: 12
+Employee Number: 2117745 Year: 1984                           Month: 10                             Day: 11
+
+(14 rows affected)
+
+***7-b ***
+                                                                                                    
+------------------------ ------------------------------------ ------------------------------------- -----------------------------------
+Employee Number: 8135170 Year: 1952                           Month: 11                             Day: 12
+Employee Number: 6886352 Year: 1959                           Month: 2                              Day: 12
+Employee Number: 6434468 Year: 1960                           Month: 1                              Day: 11
+Employee Number: 3566163 Year: 1960                           Month: 7                              Day: 19
+Employee Number: 6860242 Year: 1961                           Month: 2                              Day: 28
+Employee Number: 3214350 Year: 1963                           Month: 1                              Day: 11
+Employee Number: 3455730 Year: 1963                           Month: 1                              Day: 11
+Employee Number: 8436780 Year: 1964                           Month: 3                              Day: 27
+Employee Number: 7572373 Year: 1967                           Month: 9                              Day: 12
+Employee Number: 5512736 Year: 1972                           Month: 1                              Day: 15
+Employee Number: 3514239 Year: 1972                           Month: 7                              Day: 19
+Employee Number: 8383259 Year: 1977                           Month: 5                              Day: 12
+Employee Number: 4427732 Year: 1979                           Month: 8                              Day: 12
+Employee Number: 2117745 Year: 1984                           Month: 10                             Day: 11
+
+(14 rows affected)
+
+
+Completion time: 2021-01-29T16:33:28.9066488-05:00
