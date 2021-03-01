@@ -1,0 +1,137 @@
+***Question 1 ***
+ 
+number   name
+-------- ----------------------------------------------------------------------
+COMP2050 Applied SQL
+COMP2160 Application Software
+INFO1570 Technology Infrastructure: Fundamentals
+MGMT2050 ITSS Project Management
+
+(4 rows affected)
+
+***Question 2 ***
+ 
+number  firstName                                          lastName                                           schoolCode extension
+------- -------------------------------------------------- -------------------------------------------------- ---------- ---------
+3514239 RAKESH                                             WEKENMANN                                          EIT        8371
+8135170 RICK                                               WHETSTONE                                          EIT        8529
+
+(2 rows affected)
+
+***Question 3 ***
+ 
+number  firstName                                          lastName                                           city
+------- -------------------------------------------------- -------------------------------------------------- ------------------------------
+6434468 RINA                                               ARUNKUMAR                                          KITCHENER
+8436780 LINDY                                              DISTEFANO                                          KITCHENER
+7572373 KATHY                                              HUHN                                               GUELPH
+8383259 ANNA                                               KARASEVICZ                                         KITCHENER
+3455730 DALE                                               KARSH,                                             GUELPH
+3566163 ABDOLSAMAD                                         KATHIRESAN                                         WATERLOO
+6860242 JESSICA                                            LEIER                                              KITCHENER
+6886352 ISAAC                                              SILIADOR                                           KITCHENER
+3214350 PAULETTE                                           SIMS                                               KITCHENER
+5512736 KEN                                                TRANG                                              CAMBRIDGE
+3514239 RAKESH                                             WEKENMANN                                          KITCHENER
+8135170 RICK                                               WHETSTONE                                          KITCHENER
+2117745 LYNDOL                                             YUROVIC                                            KITCHENER
+4427732 ANGEL                                              ZABLAN                                             KITCHENER
+
+(14 rows affected)
+
+***Question 4 ***
+ 
+product                                            uniqueId
+-------------------------------------------------- ------------------------------------
+Adobe Master Collection - Adobe                    E0B20487-B868-4C3A-8EBC-C01512374C48
+Astah - Open Source                                F22D6892-F8C8-4D1B-8FFC-6400BBBA6EC3
+Dreamweaver - Adobe                                CDDBAA39-074E-4A69-AEA7-4922E912EF48
+Flash - Adobe                                      6735A41F-C951-4E06-A01D-55E4FDF1F6E4
+Illustrator - Adobe                                0C7CBEE8-FC72-4B91-A4B8-F624DCF641D6
+Insight - Faronics                                 FD0D173E-E7B2-4750-834D-9E8BAA5332D2
+Java JDK with NetBEANS - Sun Microsystems          9946CC35-283C-4AE9-8CEC-E307CECA8ED8
+Mobile Apps Software - Various                     F3A71F8C-60B5-42B8-BEF5-32BEA2CDEE40
+MySQL - Open Source                                11F84F71-C0B3-4AED-922D-58328E021CF7
+Office - Microsoft                                 197EC64E-C5A6-4453-96D0-08C0B2F85053
+Oracle - Oracle                                    4DE945A8-60AD-4869-8533-200BB63FE996
+PhotoShop - Adobe                                  D21D68F3-6BB4-431D-9721-218F7F9ABB26
+PHP - Open Source                                  6045AA05-2129-495F-9EBE-C712BBC90BDA
+Project  - Microsoft                               78245EEA-A27B-45F0-9C45-78DDEBFFD509
+Publisher  - Microsoft                             1901D208-2907-41EE-B87B-015B81DADFA9
+Simply Accounting - Sage                           157ACED8-B259-4A97-B609-A9FB169F7A92
+SSH Secure Shell - SSH                             2AB2CDDC-1B60-4582-AFC8-9D53AB844344
+Textpad Editor - Helios Software                   E88CDB3D-DFDC-4E35-81A9-8AD3E4BABD8D
+Visio  - Microsoft                                 A933D170-F6F4-4A2F-85D3-4CD5E5D5C0F0
+Visual Studio .NET - Microsoft                     DBF184BF-785A-4FD3-8675-DB41383AC5DA
+
+(20 rows affected)
+
+***Question 5 ***
+ 
+sessionCode courseNumber firstName                                          lastName                                           extension
+----------- ------------ -------------------------------------------------- -------------------------------------------------- ---------
+F10         CDEV1020     KATHY                                              HUHN                                               1478
+F10         INFO1030     DALE                                               KARSH,                                             7693
+F10         INFO1570     RICK                                               WHETSTONE                                          8529
+F10         INFO8000     ABDOLSAMAD                                         KATHIRESAN                                         2378
+F10         PROG8080     LYNDOL                                             YUROVIC                                            3578
+F10         PROG8090     RAKESH                                             WEKENMANN                                          8371
+
+(6 rows affected)
+
+***Question 6 ***
+ 
+lastName                                           firstName                                          collegeEmail                                                                     personalEmail                                                                    notes
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------------------------------------- -------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TRENCHARD                                          MELLIE                                             mtrenchard@conestogac.on.ca                                                      mtrenchard@cheapnfast.com                                                        Copied another student's assignment
+
+(1 row affected)
+
+***Question 7 ***
+ 
+Employee Empoyee Reports To Supervisor reports To
+-------- ------------------ ---------------------
+2117745  4427732            NULL
+3214350  4427732            NULL
+3455730  4427732            NULL
+3514239  4427732            NULL
+3566163  4427732            NULL
+4427732  NULL               NULL
+5512736  6860242            NULL
+6434468  NULL               NULL
+6860242  NULL               NULL
+6886352  8436780            NULL
+7572373  4427732            NULL
+8135170  4427732            NULL
+8383259  6434468            NULL
+8436780  NULL               NULL
+
+(14 rows affected)
+
+***Question 8 ***
+ 
+User ID  lastName                                           schoolCode extension
+-------- -------------------------------------------------- ---------- ---------
+akarasev KARASEVICZ                                         BUS        5162
+akathire KATHIRESAN                                         EIT        2378
+dkarsh,  KARSH,                                             EIT        7693
+
+(3 rows affected)
+
+***Question 9 ***
+ 
+number   hours       credits     name
+-------- ----------- ----------- ----------------------------------------------------------------------
+PROG1780 90          6           Programming: Fundamentals
+PROG2070 45          3           Programming: Software Quality Assurance
+PROG2240 45          3           Programming: Java Web Technologies
+PROG2250 60          4           Programming: Object Oriented Game Programming
+PROG3050 75          5           Programming: Microsoft Enterprise Applications
+PROG3060 45          3           Programming: Java Enterprise Applications
+PROG3170 45          3           Programming: Distributed Applications Development
+PROG3180 45          3           Programming: Mobile Applications
+
+(8 rows affected)
+
+
+Completion time: 2021-02-28T17:28:25.9441203-05:00
