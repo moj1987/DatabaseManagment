@@ -1,0 +1,155 @@
+***Question 1 ***
+ 
+explanation
+------------------------------
+Certified Cheque
+
+(1 row affected)
+
+transactionDate
+-----------------------
+2021-01-20 17:47:39.193
+
+(1 row affected)
+
+isInternational
+---------------
+0
+
+(1 row affected)
+
+invoiceNumber
+---------------
+4613782F13-015 
+
+(1 row affected)
+
+firstName                                          lastName                                           number  amount                transactionDate         isInternational
+-------------------------------------------------- -------------------------------------------------- ------- --------------------- ----------------------- ---------------
+DOROTHEA                                           BRENGELMAN                                         2826147 1000.00               2021-01-20 17:47:39.193 0
+
+(1 row affected)
+
+***Question 2 ***
+ 
+explanation
+------------------------------
+Certified Cheque
+
+(1 row affected)
+
+transactionDate
+-----------------------
+2021-01-20 17:47:39.193
+
+(1 row affected)
+
+isInternational
+---------------
+0
+
+(1 row affected)
+
+invoiceNumber
+---------------
+4613782F13-015 
+
+(1 row affected)
+
+firstname                                          lastname                                           number  amount                date                    isInternational
+-------------------------------------------------- -------------------------------------------------- ------- --------------------- ----------------------- ---------------
+DOROTHEA                                           BRENGELMAN                                         2826147 1000.00               2021-01-20 17:47:39.193 0
+
+(1 row affected)
+
+***Question 3 ***
+ 
+number   name
+-------- ----------------------------------------------------------------------
+CDEV1020 Co-op and Career Preparation
+INFO1030 Technology Infrastructure: Networking and Unix
+INFO1570 Technology Infrastructure: Fundamentals
+INFO2080 System Development: Design
+INFO8000 System Development: Concepts & Analysis
+
+(5 rows affected)
+
+prerequisiteNumber
+------------------
+INFO8000
+INFO2070
+
+(2 rows affected)
+
+
+-----------
+3
+
+(1 row affected)
+
+credits
+-----------
+3
+4
+4
+4
+4
+
+(5 rows affected)
+
+roomId
+-----------
+2
+3
+4
+5
+
+(4 rows affected)
+
+
+***Question 4 ***
+ 
+
+-----------
+3
+
+(1 row affected)
+
+
+-----------
+60
+
+(1 row affected)
+
+tuition               internationalTuition
+--------------------- ---------------------
+2400.00               10500.00
+
+(1 row affected)
+
+name                                               code  tuition               internationalTuition
+-------------------------------------------------- ----- --------------------- ---------------------
+IT Innovation and Design (Coop)                    0040C 0.00                  0.00
+IT Innovation and Design (Coop)                    0040C 2400.00               10500.00
+IT Innovation and Design (Coop)                    0040C 2412.00               10500.00
+IT Innovation and Design (Coop)                    0040C 2420.00               10500.00
+Computer Programmer/Analyst (Coop)                 0057C 0.00                  0.00
+Computer Programmer/Analyst (Coop)                 0057C 2400.00               10500.00
+Computer Programmer/Analyst (Coop)                 0057C 2412.00               10500.00
+Computer Programmer/Analyst (Coop)                 0057C 2420.00               10500.00
+Computer Applications Development (Coop)           0066C 0.00                  0.00
+Computer Applications Development (Coop)           0066C 3380.00               10500.00
+Computer Programmer                                1009  0.00                  0.00
+Computer Programmer                                1009  2420.00               10500.00
+Information Technology Support Services (Coop)     1097C 0.00                  0.00
+Information Technology Support Services (Coop)     1097C 2412.00               10500.00
+Information Technology Support Services (Coop)     1097C 2420.00               10500.00
+
+(15 rows affected)
+
+***Question 5 ***
+ 
+
+(5 rows affected)
+
+Completion time: 2021-03-15T18:53:12.1662978-04:00

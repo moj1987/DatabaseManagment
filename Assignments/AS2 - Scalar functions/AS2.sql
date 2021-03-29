@@ -16,7 +16,7 @@ SELECT firstName,
 LEFT(firstName,1) "First Initial",
 LOWER(LEFT(firstName,1)) "Lower First Initial"
 FROM dbo.Person
-WHERE CHARINDEX('P', lastName)=1
+WHERE LEFT(lastName,1)='P'
 ORDER BY firstName ASC
 
 --3
@@ -27,7 +27,7 @@ SELECT lastName,
 SUBSTRING(lastName,1,7) "First Seven",
 LOWER(SUBSTRING(lastName,1,7)) "Lower First Seven"
 FROM dbo.Person
-WHERE CHARINDEX('P', lastName)=1
+WHERE SUBSTRING(lastName,1,1)='P'
 ORDER BY firstName ASC
 
 --4

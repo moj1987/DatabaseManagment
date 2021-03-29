@@ -103,3 +103,7 @@ WHERE  CHARINDEX('Programming', name) > 0
 AND CourseOffering.id is NULL
 ORDER BY number
 
+SELECT *
+FROM Employee	
+SELECT *
+FROM Person
