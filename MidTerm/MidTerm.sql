@@ -194,7 +194,7 @@ PRINT ''
 INSERT INTO StudentOffence
 (studentNumber,penaltyCode, date, notes)
 VALUES
-(8846289, 'A', GETDATE(), (SELECT explanation FROM Penalty WHERE code='A') ),
+(8846289,'A',GETDATE(),(SELECT explanation FROM Penalty WHERE code='A')),
 (8858763,'A',GETDATE(),(SELECT explanation FROM Penalty WHERE code='A')),
 (8862666,'C',GETDATE(),(SELECT explanation FROM Penalty WHERE code='C')),
 (8614315,'D',GETDATE(),(SELECT explanation FROM Penalty WHERE code='D')),

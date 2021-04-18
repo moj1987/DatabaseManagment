@@ -18,10 +18,6 @@ WHERE number ='LIBS1010'
 Print '***Question 2 ***'
 PRINT ''
 
-select * from Program
-select * from Course
-select * from ProgramCourse
-
 SELECT number, hours, credits, name
 From Course
 WHERE number IN (SELECT courseNumber
@@ -30,44 +26,32 @@ WHERE number IN (SELECT courseNumber
 										FROM Program
 										WHERE acronym = 'ITID')
 				AND semester='1')
-				------------- ONLY ONE LITERAL!!!!!!!-----
 ORDER BY number
 
 --3
 Print '***Question 3 ***'
 PRINT ''
-select * from Person
-select * from Payment
-select * from PaymentMethod
-
-			--------- individual payment?
 
 SELECT number, firstName, lastName 
 FROM Person
 WHERE number IN ( SELECT studentNumber 
 				  FROM Payment
-				  WHERE paymentMethodId NOT IN( SELECT id 
-											  FROM PaymentMethod 
-											  WHERE explanation ='American Express')
+				  WHERE paymentMethodId IN( SELECT id 
+											FROM PaymentMethod 
+											WHERE explanation ='cash'
+											OR explanation='Certified Cheque')
 					AND amount > 1000)
 ORDER BY lastName
 
 --4
 Print '***Question 4 ***'
 PRINT ''
-select * from Person
-select * from Student
-select * from StudentProgram
-select * from Program
-select * from Credential
 
 SELECT firstName, lastName 
 FROM Person
 WHERE number IN ( SELECT number
 					FROM Student
 					WHERE isInternational = 1
-					-- LEADS TO POST GRAD CERT?????
-					--- WHO ARE ENROLLED ?????
 					AND number IN  ( SELECT studentNumber
 									FROM StudentProgram
 									WHERE programCode IN (SELECT code

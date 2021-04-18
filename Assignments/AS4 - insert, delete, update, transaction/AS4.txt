@@ -1,0 +1,199 @@
+***Question 1 ***
+ 
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+***Question 2 ***
+ 
+number   hours       credits     name
+-------- ----------- ----------- ----------------------------------------------------------------------
+COMM1180 45          3           Effective Technical Comunication I
+INFO1570 60          4           Technology Infrastructure: Fundamentals
+MATH1910 45          3           Mathematics for IT I
+PROG1780 90          6           Programming: Fundamentals
+
+(4 rows affected)
+
+***Question 3 ***
+ 
+number  firstName                                          lastName
+------- -------------------------------------------------- --------------------------------------------------
+2642726 SANDRA                                             BICKERS
+8431710 MICHAEL J                                          GARLAND
+7252620 ARTHUR G.                                          JAYSURA
+3868247 MELINDA                                            KALINOWSKI
+7826662 GARY                                               MCLAUGHLIN
+1335314 JOSEPH                                             NOLAN
+6644710 HENRY                                              SWAIN
+3244449 BOBBY R                                            WARMINGTON
+
+(8 rows affected)
+
+***Question 4 ***
+ 
+firstName                                          lastName
+-------------------------------------------------- --------------------------------------------------
+ALKASUM                                            ABBA
+ZHI-WEN                                            AO
+PRAVEER                                            ASTHANA
+RAMESH                                             BABU
+BIJAN                                              BAJCHI
+TONG                                               CAO
+HABIB                                              CHAUDHURY
+FATIMAH                                            DAGHITA
+BHANU                                              DAS
+NITYANANDA                                         DHYANAPEETAM
+YOLANDA                                            FLOYD
+XING                                               FU
+CHIEN                                              GAO
+SURESH                                             GOVINDARAJAN
+XIAO-LAN                                           HE
+REN-LIANG                                          HU
+ARTHUR G.                                          JAYSURA
+SAYAN                                              KAR
+GOVIND                                             KARJOL
+ANANT                                              KUMAR
+VIVEK                                              LAKSHMANAN
+ZHI-HUA                                            LI
+PAN-JUAN                                           LIN
+ZHONG-LING                                         LIU
+JIAN-XIN                                           LUO
+JOIA                                               MUKHERJEE
+VIJAY                                              MUKHI
+RAMABAI                                            PANDITA
+SHIBAJI                                            RAHA
+ANAND                                              RAJARAMAN
+ABBAS                                              RANGWALA
+RAJKUMAR                                           RAYCHAUDHURI
+SOUMITRO                                           SENGUPTA
+SARDAR                                             SINGH
+VENKATARAMAN                                       THANGADURAI
+TADEUSZ                                            TOMASZEWSKI
+PENG-CHENG                                         W
+YOU-FANG                                           WANG
+MEI-ZHI                                            WANG
+MU                                                 ZANG
+SHU-YING                                           ZENG
+LI                                                 ZHANG
+XAN-XIANG                                          ZHANG
+BEN-DU                                             ZHONG
+
+(44 rows affected)
+
+***Question 5 ***
+ 
+
+(1 row affected)
+number  lastName                                           firstName                                          street                                                                           city                           provinceCode countryCode postalCode mainPhone                      alternatePhone                 collegeEmail                                                                     personalEmail                                                                    birthdate
+------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------------------------------------- ------------------------------ ------------ ----------- ---------- ------------------------------ ------------------------------ -------------------------------------------------------------------------------- -------------------------------------------------------------------------------- -----------------------
+7424476 TANEJA                                             INDU                                               FLAT NO. 100 TRIVENI APARTMENTS PITAM PURA                                       NEW DELHI                      NULL         IND         110034     6610242                        94324060195                    iteneja@conestogac.on.ca                                                         iteneja@bsnl.co.in                                                               1989-10-07 00:00:00.000
+
+(1 row affected)
+
+***Question 6 ***
+ 
+
+(1 row affected)
+number  isInternational academicStatusCode financialStatusCode sequentialNumber balance
+------- --------------- ------------------ ------------------- ---------------- ---------------------
+7424476 1               N                  D                   0                1130.00
+
+(1 row affected)
+
+localStreet
+--------------------------------------------------------------------------------
+442 GIBSON ST N
+
+(1 row affected)
+
+localCity                      localPostalCode
+------------------------------ ---------------
+Kitchener                      N2M 4T4
+
+(1 row affected)
+
+***Question 7 ***
+ 
+code
+-----
+0066C
+
+(1 row affected)
+
+(1 row affected)
+
+studentNumber programCode semester    programStatusCode
+------------- ----------- ----------- -----------------
+7424476       0066C       1           A
+
+(1 row affected)
+
+***Question 8 ***
+ 
+id
+-----------
+62
+
+(1 row affected)
+
+(1 row affected)
+
+CourseOfferingId studentNumber finalMark
+---------------- ------------- ----------------------
+64               7424476       0
+
+(1 row affected)
+
+***Question 9 ***
+ 
+
+(1 row affected)
+number   hours       credits     name                                                                   frenchName
+-------- ----------- ----------- ---------------------------------------------------------------------- ----------------------------------------------------------------------
+LIBS1010 45          3           Critical Thinking Skills                                               Pensée Critique
+
+(1 row affected)
+
+***Question 10 ***
+ 
+
+(1 row affected)
+number   hours       credits     name                                                                   frenchName
+-------- ----------- ----------- ---------------------------------------------------------------------- ----------------------------------------------------------------------
+BUS1070  45          3           Introduction To Human Relations                                        Introduction aux relations humaines
+
+(1 row affected)
+
+***Question 11 ***
+ 
+id
+-----------
+5
+
+(1 row affected)
+
+(1 row affected)
+
+
+(1 row affected)
+id          amountPerSemester     item                                                         frenchItem
+----------- --------------------- ------------------------------------------------------------ ------------------------------------------------------------
+5           100.00                Technology Enhancement Fee                                   Frais de perfectionnement de la technologie
+
+(1 row affected)
+
+***Question 12 ***
+ 
+
+(1 row affected)
+id          amountPerSemester     item                                                         frenchItem
+----------- --------------------- ------------------------------------------------------------ ------------------------------------------------------------
+5           200.00                Technology Enhancement Fee                                   Frais de perfectionnement de la technologie
+
+(1 row affected)
+
+
+Completion time: 2021-03-30T00:18:30.0750147-04:00

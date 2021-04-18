@@ -1,0 +1,138 @@
+***Question 0 ***
+ 
+***Question 1 ***
+ 
+Employees in the School of Business
+-----------------------------------
+2
+
+(1 row affected)
+
+***Question 2 ***
+ 
+number  finalMark              firstName                                          lastName
+------- ---------------------- -------------------------------------------------- --------------------------------------------------
+4421731 73                     NEIL                                               BADAME
+7324445 73                     SHEILA                                             BEAL
+4823589 83                     HABIB                                              CHAUDHURY
+2447779 82                     ELWYN II                                           CHICK
+4186656 78                     THOMAS                                             CHRYSTAL
+4383287 74                     LARRY                                              CONNELL
+8412280 82                     REBECCA A                                          CONRAD
+5582770 75                     JOSEFINE                                           CRUDUP
+4878237 80                     NITYANANDA                                         DHYANAPEETAM
+7768229 79                     PATSY                                              GOBEN
+1311885 70                     VEDA                                               HANDORF
+7184237 75                     BRENDA L                                           HEBERT-BOYD
+8317323 75                     MARIA                                              IHRIG
+7223514 73                     CARLA                                              ISERHIENRHIEN
+1355460 82                     SHARON                                             KIRK
+4634267 75                     SANDI                                              LIVERS
+6537187 87                     TAPAN                                              MEEHAN
+8752289 77                     DOUG                                               MILLER
+5242656 82                     SYLVIA                                             NEISS
+1588425 74                     TRACI R                                            RAETHKE
+6471585 80                     TIM L                                              RANOO
+5386818 80                     REGINALD                                           RIOLO
+6344154 81                     ANNIE                                              SAVELA
+5325121 70                     NOVLETTE                                           SIFERS
+4742615 81                     NANCY                                              SPRATT
+4627675 93                     REX                                                TAULBEE
+3222627 73                     BOYD                                               TREASURE
+7187180 76                     MICHAEL V                                          TRENT
+1114453 77                     YOU-FANG                                           WANG
+1845510 71                     MARY                                               WESTERMEIER
+
+(30 rows affected)
+
+***Question 3 ***
+ 
+Course   Lowest Mark            Average Mark           Lowest Mark
+-------- ---------------------- ---------------------- ----------------------
+CDEV1020 90                     95                     99
+INFO1030 56                     68                     79
+INFO1570 80                     90                     99
+INFO8000 61                     72                     89
+PROG8080 70                     81                     94
+PROG8090 56                     76                     98
+
+(6 rows affected)
+
+***Question 4 ***
+ 
+firstName                                          lastName
+-------------------------------------------------- --------------------------------------------------
+SANDRA                                             BICKERS
+ARTHUR G.                                          JAYSURA
+MELINDA                                            KALINOWSKI
+JOSEPH                                             NOLAN
+ETIENNE                                            TOLEN
+BOBBY R                                            WARMINGTON
+
+(6 rows affected)
+
+***Question 5-a ***
+ 
+employeeNumber firstName                                          lastName                                           Courses Taught
+-------------- -------------------------------------------------- -------------------------------------------------- --------------
+7572373        KATHY                                              HUHN                                               3
+3455730        DALE                                               KARSH,                                             2
+3566163        ABDOLSAMAD                                         KATHIRESAN                                         2
+3514239        RAKESH                                             WEKENMANN                                          3
+8135170        RICK                                               WHETSTONE                                          3
+2117745        LYNDOL                                             YUROVIC                                            3
+
+(6 rows affected)
+
+***Question 5-b ***
+ 
+number  firstName                                          lastName                                           Courses Taught
+------- -------------------------------------------------- -------------------------------------------------- --------------
+7572373 KATHY                                              HUHN                                               3
+3455730 DALE                                               KARSH,                                             2
+3566163 ABDOLSAMAD                                         KATHIRESAN                                         2
+3214350 PAULETTE                                           SIMS                                               0
+3514239 RAKESH                                             WEKENMANN                                          3
+8135170 RICK                                               WHETSTONE                                          3
+2117745 LYNDOL                                             YUROVIC                                            3
+4427732 ANGEL                                              ZABLAN                                             0
+
+(8 rows affected)
+
+***Question 6 ***
+ 
+The result shown in PDf which is wrong.
+acronym NAME                                               Total Fees
+------- -------------------------------------------------- -----------
+CAD     Computer Applications Development (Coop)           $  6,760.00
+CPA     Computer Programmer/Analyst (Coop)                 $  9,632.00
+ITID    IT Innovation and Design (Coop)                    $  9,642.56
+ITSS    Information Technology Support Services (Coop)     $  7,248.00
+
+(4 rows affected)
+
+Actual solution to the question!!
+acronym NAME                                               Total Fees
+------- -------------------------------------------------- -----------
+CAD     Computer Applications Development (Coop)           $ 13,880.00
+CPA     Computer Programmer/Analyst (Coop)                 $ 12,900.00
+ITID    IT Innovation and Design (Coop)                    $ 12,910.56
+ITSS    Information Technology Support Services (Coop)     $ 12,916.00
+
+(4 rows affected)
+
+***Question 7 ***
+ 
+studentNumber firstName                                          lastName                                           Fee Payment Total
+------------- -------------------------------------------------- -------------------------------------------------- -----------------
+2642726       SANDRA                                             BICKERS                                            $ 13,159.00
+3868247       MELINDA                                            KALINOWSKI                                         $ 13,159.00
+7826662       GARY                                               MCLAUGHLIN                                         $  6,791.44
+1335314       JOSEPH                                             NOLAN                                              $ 10,000.00
+
+(4 rows affected)
+
+***Question 8 ***
+ 
+
+Completion time: 2021-04-15T17:49:36.6408225-04:00
